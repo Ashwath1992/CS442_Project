@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:fillViewport="false">
+
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Register to SplitPay"
+        android:id="@+id/main_heading"
+        android:layout_weight="0.04"
+        android:textStyle="bold"
+        android:textColor="#ff1194ff"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Full Name"
+        android:ems="10"
+        android:id="@+id/name"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:ems="10"
+        android:id="@+id/email"
+        android:layout_weight="0.04" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Phone no."
+        android:maxLength="10"
+        android:ems="10"
+        android:id="@+id/phone"
+        android:layout_weight="0.04" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uname"
+        android:hint="Username"
+        android:layout_weight="0.04" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:ems="10"
+        android:id="@+id/passwd"
+        android:layout_weight="0.04" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        android:ems="10"
+        android:id="@+id/conpass"
+        android:layout_weight="0.04" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Credit/Debit Card Details"
+        android:id="@+id/sub_heading"
+        android:gravity="center"
+        android:layout_weight="0.04"
+        android:textStyle="bold"
+        android:textColor="#ff21a7ff" />
+
+    <RadioGroup
+        android:id="@+id/radioCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/credit"
+        android:layout_weight="0.04"
+        android:checked="true"
+        android:text="Credit Card" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Debit Card"
+        android:id="@+id/debit"
+        android:layout_weight="0.04" />
+
+    </RadioGroup>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Card Type"
+        android:id="@+id/ctype"
+        android:layout_weight="0.04" />
+
+    <Spinner
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:spinnerMode="dropdown"
+        android:gravity="right"
+        android:entries="@array/ctype_arrays"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Name on Card"
+        android:id="@+id/cholder"
+        android:layout_weight="0.04" />
+
+    <EditText
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/cname" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Card Number"
+        android:id="@+id/cardnum"
+        android:layout_weight="0.04" />
+
+    <EditText
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:maxLength="16"
+        android:id="@+id/cnum"
+        android:layout_gravity="right" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Expiry Date"
+        android:id="@+id/exdate"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="selectDate" >
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:hint="MM/DD/YYYY"
+            android:id="@+id/date_in"
+            android:gravity="center"
+            android:layout_gravity="center">
+            <requestFocus />
+        </TextView>
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignBottom="@+id/date_in"
+            android:layout_toRightOf="@+id/date_in"
+            android:contentDescription="@string/selectdate"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:cropToPadding="true"
+            android:onClick="selectDate"
+            android:id="@+id/imageButton1"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_datepicker"/>
+
+        </RelativeLayout>
+
+        <TextView
+        android:layout_width="44dp"
+        android:layout_height="48dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="CVV"
+        android:gravity="center"
+        android:id="@+id/cvv" />
+
+    <EditText
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:maxLength="3"
+        android:id="@+id/cvv_in" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/reg_btn"
+        android:layout_weight="0.04" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/can_btn"
+        android:layout_weight="0.04"
+        android:onClick="Cancel" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="By registering, you accept the SplitPay Terms of Service."
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center" />
+    </LinearLayout>
+
+</ScrollView>
+<!-- From: file:/C:/Users/Hegde/AndroidStudioProjects/SplitPay/app/src/main/res/layout/register.xml -->
