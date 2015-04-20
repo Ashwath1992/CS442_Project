@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cs442.project.splitpay" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="keyboardHidden|orientation">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".Registration"
+            android:label="@string/title_activity_detail_topic"
+            android:parentActivityName=".LoginActivity">
+        </activity>
+        <activity
+            android:name=".Groups_Reg"
+            android:label="@string/group_name"
+            android:configChanges="orientation|screenLayout" >
+        </activity>
+        <activity
+            android:name=".Members"
+            android:label="@string/group_members"
+            android:parentActivityName=".Groups_Reg">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SplitPay</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_detail_topic">User Registration</string>
+    <string name="group_name">SplitPay Groups</string>
+    <string name="group_members">Group Members</string>
+    <string name="create_group">Add Members and Split</string>
+    <string name="selectdate">Select Date</string>
+    <string name="underlinedText"><u>Forgot Password</u></string>
+    <string-array name="ctype_arrays">
+        <item>Visa</item>
+        <item>Master Card</item>
+        <item>Discover</item>
+        <item>American Express</item>
+    </string-array>
+
+</resources>

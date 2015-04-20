@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Hegde\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="C:\Users\Hegde\AndroidStudioProjects\SplitPay\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.2-daf1e7b79c03dd4fe13a451c20657dd2f32b66a6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hegde\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="C:\Users\Hegde\AndroidStudioProjects\SplitPay\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.2.2-6e07dc309256fc27c9c6fd587e747dbf6a5acc38.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hegde\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.2.3\e787a02a644f2681e4af82cdc88dd2f69877692b\firebase-client-jvm-2.2.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e787a02a644f2681e4af82cdc88dd2f69877692b">
+        <dex dex="C:\Users\Hegde\AndroidStudioProjects\SplitPay\app\build\intermediates\pre-dexed\debug\firebase-client-jvm-2.2.3-625735f1f09438a6f6d11b6dc0e24f567d319023.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hegde\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.11\d37cb67277928cf59344b4196af8d9cee1f1a27c\tubesock-0.0.11.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d37cb67277928cf59344b4196af8d9cee1f1a27c">
+        <dex dex="C:\Users\Hegde\AndroidStudioProjects\SplitPay\app\build\intermediates\pre-dexed\debug\tubesock-0.0.11-027ab67411fe7be645076236277a6715b8d292fe.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hegde\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Hegde\AndroidStudioProjects\SplitPay\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-710641f20c77cae4643fc0d12febc7eac8663610.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hegde\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.2.3\682d0a8dce58e47bde57316aac7d6bb5618dee6b\firebase-client-android-2.2.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="682d0a8dce58e47bde57316aac7d6bb5618dee6b">
+        <dex dex="C:\Users\Hegde\AndroidStudioProjects\SplitPay\app\build\intermediates\pre-dexed\debug\firebase-client-android-2.2.3-2daaec61f61008254d72702fbad6322dea8dfbda.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hegde\AndroidStudioProjects\SplitPay\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Hegde\AndroidStudioProjects\SplitPay\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-05256444d7c56438970e9dd161d6724613cd056f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hegde\AndroidStudioProjects\SplitPay\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Hegde\AndroidStudioProjects\SplitPay\app\build\intermediates\pre-dexed\debug\classes-5633c5a054b77f04da67cf293e88ba6927c25902.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hegde\AndroidStudioProjects\SplitPay\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Hegde\AndroidStudioProjects\SplitPay\app\build\intermediates\pre-dexed\debug\classes-d1b4cd079ca6e91524f3321c1944f4e7abc46574.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hegde\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="C:\Users\Hegde\AndroidStudioProjects\SplitPay\app\build\intermediates\pre-dexed\debug\jackson-databind-2.2.2-348adfde10d37a20d2a155711ed0546cecaef264.jar" />
+    </item>
+
+</items>
